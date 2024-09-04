@@ -28,7 +28,7 @@ As a Cyber Analyst at OTOMATO SOFTWARE, my role involves a range of responsibili
 
 ## Contact
 
-For more information or inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/your-profile) or [Email](mailto:your.email@example.com).
+For more information or inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/company/otomato/) or [Email](mailto:undergruntl@gmail.com).
 
 ---
 
