@@ -1,4 +1,4 @@
-# SecOps SQL Queries
+# SecOps SQL/Python/JSON/SCRIPTS Queries
 
 Welcome to the SecOps SQL Queries repository. This repository contains various SQL queries designed to help identify potential security threats by analyzing login attempt data. The queries focus on failed login attempts, login patterns, and suspicious user behavior, which are essential for Security Operations (SecOps) teams.
 
