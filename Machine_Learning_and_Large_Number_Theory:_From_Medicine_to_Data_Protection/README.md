@@ -32,7 +32,7 @@ The same happens with neural networks: as the training data grows, variance decr
 ---
 
 ### Figure 1. Law of Large Numbers Visualization  
-![law_of_large_numbers.png](http://nei-gong.com/DA/OTOMATO/ML/Low_of_large_numbers.jpg)  
+![law_of_large_numbers.png](http://nei-gong.com/DA/OTOMATO/ML/Low_of_large_numbers_RED.jpg)  
 *The blue curve approaches the expected value (red dashed line) as the sample size increases.*
 
 ---
