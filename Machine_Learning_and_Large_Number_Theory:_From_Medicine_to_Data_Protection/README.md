@@ -1,6 +1,6 @@
 # Machine Learning and the Law of Large and Small Numbers  
 ### Research conducted with OTOMATO SOFTWARE, Sheba Medical Center, and Population Reference Bureau (PRB)
-
+![law_of_large_numbers.png](http://nei-gong.com/DA/OTOMATO/ML/ML_Infografic.png)  
 ---
 
 > “Each individual event may be random, but the collective of events forms a law.”  
