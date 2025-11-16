@@ -98,6 +98,15 @@ global_mean = np.mean(local_means)
 print("Local means:", local_means)
 print("Global aggregated mean:", global_mean)
 ```
+OUTPUT: 
+Local means: 
+[np.float64(0.08208002435364081), 
+np.float64(0.9337908876457545), 
+np.float64(2.0308306317545446)]
+Global aggregated mean: 1.0155671812513132
+
+This code demonstrates the principle of aggregating knowledge without sharing raw data.
+
 ---
 ## Part II — Data Architecture and Security in Machine Learning Systems
 
@@ -140,42 +149,9 @@ class SecureMLPipeline:
 ---
 ![archetectura_data_stream.png](http://nei-gong.com/DA/OTOMATO/ML/archetectura_data_stream_01.png)  
 
-## 5. Cloud Security and Federated Learning
 
-When working with sensitive medical or demographic data, as in the Sheba and PRB projects, privacy and encryption become essential.
 
-### Core Technologies for Secure ML Pipelines
-
-- **Federated Learning** — enables training across distributed datasets without moving raw data.  
-- **Homomorphic Encryption** — allows computations on encrypted data.  
-- **Zero-Knowledge Proofs** — validate results without exposing inputs.
-
-These tools make it possible to apply the *Law of Large Numbers* across decentralized environments — enabling aggregation and averaging without direct access to raw data.
-
-### Code Example: Simulated Federated Averaging
-
-```python
-import numpy as np
-
-# simulate local datasets
-clients = [np.random.randn(100) + i for i in range(3)]
-
-local_means = [np.mean(c) for c in clients]
-global_mean = np.mean(local_means)
-
-print("Local means:", local_means)
-print("Global aggregated mean:", global_mean)
-```
-OUTPUT: 
-Local means: 
-[np.float64(0.08208002435364081), 
-np.float64(0.9337908876457545), 
-np.float64(2.0308306317545446)]
-Global aggregated mean: 1.0155671812513132
-
-This code demonstrates the principle of aggregating knowledge without sharing raw data.
-
-### **Figure 4. Cloud Protection Flow**
+### **Figure 1. Cloud Protection Flow**
 
 A schematic representation of:
 
@@ -206,7 +182,7 @@ The improved model is sent back to nodes, still without exposing any participant
 
 This architecture ensures privacy-preserving collaboration at scale — enabling machine learning across hospitals, demographic institutions like PRB, and cloud environments without violating data confidentiality.
 
-## 5. Demographic Cooling as Digital Thermodynamics
+## Figure 2. Demographic Cooling as Digital Thermodynamics
 
 The **Demographic Cooling Hypothesis** suggests that neural networks naturally enter a stabilization phase, reducing their “temperature” as learning progresses.  
 This mirrors population dynamics: as growth slows, stability and sustainability emerge.
@@ -215,7 +191,7 @@ In cloud-scale ML systems, this *digital climate* regulates energy flow, balanci
 
 ---
 
-## 6. Conclusion
+## Conclusion
 
 The interplay between the **Law of Large Numbers**, **demographic cooling**, and **secure distributed learning** defines the frontier of modern AI.  
 Through research with **OTOMATO SOFTWARE**, **Sheba Medical Center**, and **PRB**, we see that the mathematical principles of probability not only underpin learning algorithms but also shape the architecture of secure, large-scale intelligent systems.
@@ -224,7 +200,7 @@ The science of averages becomes the art of stability — in data, in systems, an
 
 ---
 
-## 7. References
+## References
 
 - Bernoulli, J. (1713). *Ars Conjectandi*. Basel: Thurneysen Brothers.  
 - Kahneman, D., & Tversky, A. (1971). *Belief in the Law of Small Numbers*. Psychological Bulletin, 76(2), 105–110.  
