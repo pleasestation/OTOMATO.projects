@@ -138,4 +138,4 @@ class SecureMLPipeline:
         return result
 ```
 ---
-![archetectura_data_stream.png](http://nei-gong.com/DA/OTOMATO/ML/archetectura_data_stream.png)  
+![archetectura_data_stream.png](http://nei-gong.com/DA/OTOMATO/ML/archetectura_data_stream_01.png)  
