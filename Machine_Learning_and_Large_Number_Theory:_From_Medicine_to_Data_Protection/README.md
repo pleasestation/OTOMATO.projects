@@ -72,6 +72,7 @@ This concept bridges **thermodynamics** and **data science**, describing the tra
 ---
 
 ### 5. Cloud Security and Federated Learning
+![data_trainig.jpg](http://nei-gong.com/DA/OTOMATO/ML/data_trainig.jpg)  
 
 When working with sensitive **medical** or **demographic** data, as in the **Sheba** and **PRB** projects, **privacy** and **encryption** become essential.
 
