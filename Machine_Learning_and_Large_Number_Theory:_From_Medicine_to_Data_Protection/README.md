@@ -99,3 +99,43 @@ print("Local means:", local_means)
 print("Global aggregated mean:", global_mean)
 ```
 ---
+## Part II — Data Architecture and Security in Machine Learning Systems
+
+### Understanding Data Streams
+
+In modern machine learning systems, data doesn’t simply exist — it *flows*. Each stream — from patient genomics in oncology research to anonymized behavioral logs in cloud environments — creates a dynamic landscape of inputs.
+
+The **Law of Large Numbers** (Wikipedia) ensures that as data volume grows, the system’s predictions converge to the true mean, allowing for more stable and interpretable models.
+
+However, this stability depends on data integrity, noise management, and bias detection. The **Law of Small Numbers** (Tversky & Kahneman, 1971) reminds us that limited or unrepresentative samples can lead to false confidence — an especially critical problem in biomedical AI, where sample sizes are often small.
+
+---
+
+### Architectural Flow
+
+The basic machine learning pipeline — **Data → Training → Prediction → Feedback** — encapsulates both mathematical theory and cybersecurity challenges.  
+The architecture can be described in four logical layers:
+```python
+# Simplified pipeline model for secure ML architecture
+class SecureMLPipeline:
+    def __init__(self, data, model, cloud_security):
+        self.data = self.clean(data)
+        self.model = model
+        self.security = cloud_security
+
+    def clean(self, data):
+        # Noise reduction & anomaly detection
+        return [x for x in data if abs(x) < 10**6]
+
+    def train(self):
+        self.model.fit(self.data)
+
+    def predict(self, new_input):
+        return self.model.predict(new_input)
+
+    def feedback(self, result):
+        self.security.log(result)
+        return result
+```
+---
+![archetectura_data_stream.png](http://nei-gong.com/DA/OTOMATO/ML/archetectura_data_stream.png)  
