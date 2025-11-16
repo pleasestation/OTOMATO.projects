@@ -1,5 +1,5 @@
 # Machine Learning and the Law of Large and Small Numbers  
-### Research conducted with OTOMATO SOFTWARE, Sheba Medical Center, and Population Reference Bureau (PRB)
+### Research conducted with Otomato Software, Sheba Medical Center, and Population Reference Bureau (PRB)
 ![law_of_large_numbers.png](http://nei-gong.com/DA/OTOMATO/ML/ML_Infografic.png)  
 ---
 
@@ -33,7 +33,7 @@ The same happens with neural networks: as the training data grows, variance decr
 
 ### Figure 1. Law of Large Numbers Visualization  
 ![law_of_large_numbers.png](http://nei-gong.com/DA/OTOMATO/ML/Low_of_large_numbers_RED_B.jpg)  
-*The blue curve approaches the expected value (red dashed line) as the sample size increases.*
+*The black line approaches the expected value (red curved line) as the sample size increases.*
 
 ---
 
