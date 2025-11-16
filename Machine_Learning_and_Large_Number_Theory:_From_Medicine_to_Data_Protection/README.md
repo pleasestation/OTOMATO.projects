@@ -166,7 +166,11 @@ global_mean = np.mean(local_means)
 print("Local means:", local_means)
 print("Global aggregated mean:", global_mean)
 ```
-OUTPUT: Local means: [np.float64(0.08208002435364081), np.float64(0.9337908876457545), np.float64(2.0308306317545446)]
+OUTPUT: 
+Local means: 
+[np.float64(0.08208002435364081), 
+np.float64(0.9337908876457545), 
+np.float64(2.0308306317545446)]
 Global aggregated mean: 1.0155671812513132
 
 This code demonstrates the principle of aggregating knowledge without sharing raw data.
