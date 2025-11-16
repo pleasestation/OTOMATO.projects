@@ -139,3 +139,27 @@ class SecureMLPipeline:
 ```
 ---
 ![archetectura_data_stream.png](http://nei-gong.com/DA/OTOMATO/ML/archetectura_data_stream_01.png)  
+
+## 5. Cloud Security and Federated Learning
+
+When working with sensitive medical or demographic data, as in the Sheba and PRB projects, privacy and encryption become essential.
+
+### Core Technologies for Secure ML Pipelines
+
+- **Federated Learning** — enables training across distributed datasets without moving raw data.  
+- **Homomorphic Encryption** — allows computations on encrypted data.  
+- **Zero-Knowledge Proofs** — validate results without exposing inputs.
+
+These tools make it possible to apply the *Law of Large Numbers* across decentralized environments — enabling aggregation and averaging without direct access to raw data.
+
+### Code Example: Simulated Federated Averaging
+
+```python
+import numpy as np
+
+def local_update(data):
+    # simulate training on local client
+    return np.mean(data)
+
+def federated_average(updates):
+
