@@ -157,9 +157,46 @@ These tools make it possible to apply the *Law of Large Numbers* across decentra
 ```python
 import numpy as np
 
-def local_update(data):
-    # simulate training on local client
-    return np.mean(data)
+# simulate local datasets
+clients = [np.random.randn(100) + i for i in range(3)]
 
-def federated_average(updates):
+local_means = [np.mean(c) for c in clients]
+global_mean = np.mean(local_means)
+
+print("Local means:", local_means)
+print("Global aggregated mean:", global_mean)
+```
+This code demonstrates the principle of aggregating knowledge without sharing raw data.
+
+### **Figure 4. Cloud Protection Flow**
+
+A schematic representation of:
+
+- **Cloud data encryption pipeline**  
+- **Federated Learning communication loop**  
+- **Secure aggregation layer where no raw records leave local nodes**
+
+---
+
+### **Data flows through the following conceptual stages:**
+
+#### **1. Local Data Collection**  
+Every participating node (hospital, device, or service) keeps its raw data on-premise.
+
+#### **2. Local Model Computation**  
+Each node computes gradients or statistics on encrypted datasets.
+
+#### **3. Secure Encryption Layer**  
+Before transmission, results are encrypted using homomorphic encryption or secure multi-party computation.
+
+#### **4. Federated Aggregation in the Cloud**  
+The central cloud only receives encrypted updates and aggregates them without decryption.
+
+#### **5. Global Model Distribution**  
+The improved model is sent back to nodes, still without exposing any participant’s raw data.
+
+---
+
+This architecture ensures privacy-preserving collaboration at scale — enabling machine learning across hospitals, demographic institutions like PRB, and cloud environments without violating data confidentiality.
+
 
