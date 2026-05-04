@@ -2,7 +2,7 @@
 
 ## Overview
 
-As a Product Analyst at OTOMATO SOFTWARE, my role focuses on driving product improvements and supporting software development through data-driven insights. I analyze user behavior and customer journeys, identify patterns, including fraud-related anomalies, optimize features, and contribute to product decision-making. I work closely with cross-functional teams to enhance user experience, improve performance, and support the development of scalable solutions. Additionally, I leverage my experience in cyber threat analysis to identify risks and contribute to strengthening the security aspects of the product.
+As a Product and DevSecOps Data Analyst at OTOMATO SOFTWARE, my role focuses on driving product improvements and supporting software development through data-driven insights. I analyze user behavior and customer journeys, identify patterns, including fraud-related anomalies, optimize features, and contribute to product decision-making. I work closely with cross-functional teams to enhance user experience, improve performance, and support the development of scalable solutions. Additionally, I leverage my experience in cyber threat analysis to identify risks and contribute to strengthening the security aspects of the product.
 
 ## Key Responsibilities
 
