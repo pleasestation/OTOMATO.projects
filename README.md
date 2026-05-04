@@ -1,4 +1,4 @@
-# Cyber Analyst at OTOMATO SOFTWARE
+# DevOps & SecOps Data Analyst at OTOMATO SOFTWARE
 
 ## Overview
 
