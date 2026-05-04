@@ -19,6 +19,10 @@ As a Product and DevSecOps Data Analyst at OTOMATO SOFTWARE, my role focuses on 
 - **Forcepoint DLP** (Data Loss Prevention)
 - **SIEM Integration** (Security Information and Event Management)
 - **SOAR** (Security Orchestration, Automation, and Response)
+- **SQL** (MS SQL Server)
+- **Excel** (Advanced)
+- **Tableau/Power BI**
+- **Python** (pandas, matplotlib)
 
 ## Contributions
 
