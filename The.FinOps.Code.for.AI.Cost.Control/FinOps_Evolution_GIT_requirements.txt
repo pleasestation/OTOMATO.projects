@@ -1,0 +1,4 @@
+google-adk
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-google-adk
